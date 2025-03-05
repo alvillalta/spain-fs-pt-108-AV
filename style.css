@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: lightblue;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 5px;
+}
+.box2 {
+    width: 80px;
+    height: 80px;
+    background-color: lightpink;
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 5px;
+}
+.box3{
+    width: 80px;
+    height: 80px;
+    background-color: lightpink;
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin: 5px;
+      
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
